@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .main {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 300px;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+}
+
+.links {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #e5e7eb;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 130px;
+}
+
+.main-image {
+    width: 320px;
+    height: 170px;
+}
+
+.COD-logo {
+    width: 350px;
+    height: 120px;
+    padding-top: 90px;
+}
+
+.main-text {
+    display: block;
+
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    text-align: center;
+}
