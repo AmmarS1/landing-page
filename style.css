@@ -41,6 +41,7 @@ a {
     justify-content: space-around;    
     gap: 20px;
     height: 80vh;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -143,6 +144,7 @@ p {
 
 .CTA-container {
     margin-top: 20px;
+    text-overflow: ellipsis;
 }
 
 .call-text {
@@ -150,8 +152,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
     font-weight: bold;
-    width: 500px;
-
 }
 
 p.sign-up-text {
@@ -163,6 +163,7 @@ p.sign-up-text {
 
 .CTA-button {
     border: 3px solid rgb(255, 255, 255);
+    text-overflow: ellipsis;
 }
 
 .footer {
